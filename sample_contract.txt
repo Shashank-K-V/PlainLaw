@@ -1,0 +1,48 @@
+MUTUAL NON-DISCLOSURE AND EMPLOYMENT AGREEMENT
+
+This Agreement is entered into as of January 1, 2025, between NovaTech Solutions Inc., a Delaware corporation ("Company"), and the individual signing below ("Employee").
+
+1. EMPLOYMENT AT WILL
+The Company agrees to employ Employee in the position of Senior Software Engineer. Employment under this Agreement is at-will, meaning either party may terminate the employment relationship at any time, with or without cause, and with or without notice. Nothing in this Agreement shall be construed to create a contract of employment for any specific duration.
+
+2. COMPENSATION AND BENEFITS
+Employee shall receive an annual base salary of $120,000, payable in accordance with the Company's standard payroll schedule. Employee shall be eligible to participate in the Company's standard benefits package, including health insurance, dental, and vision coverage, subject to the terms and conditions of those plans as amended from time to time.
+
+3. INTELLECTUAL PROPERTY ASSIGNMENT
+Employee agrees that any and all inventions, discoveries, developments, improvements, software, code, designs, concepts, and works of authorship — whether or not patentable or copyrightable — conceived, created, or reduced to practice by Employee at any time during their employment, whether during or outside of working hours, whether or not using Company equipment or resources, and whether or not related to the Company's current or anticipated business, shall be the sole and exclusive property of the Company. Employee hereby irrevocably assigns all right, title, and interest in such works to the Company worldwide in perpetuity.
+
+4. NON-COMPETE RESTRICTION
+For a period of three (3) years following termination of employment for any reason, Employee shall not, directly or indirectly, engage in, own, manage, operate, control, be employed by, or provide services to any person, entity, or business that competes with the Company in any market in which the Company operates or plans to operate, anywhere in the world. This restriction applies regardless of the role or capacity in which Employee would serve.
+
+5. CONFIDENTIALITY
+Employee agrees to hold in strict confidence all Confidential Information received from the Company. "Confidential Information" means any non-public information relating to the Company's business, technology, customers, finances, or strategy, whether disclosed orally, in writing, or by any other means. This obligation survives termination of employment indefinitely.
+
+6. ANNUAL LEAVE AND HOLIDAYS
+Employee is entitled to 20 days of paid annual leave per calendar year, accruing at a rate of 1.67 days per month. Unused leave may be carried over up to a maximum of 5 days. Employee is also entitled to all federally recognized public holidays. Leave requests must be submitted at least two weeks in advance and are subject to manager approval.
+
+7. SALARY REVIEW
+The Company may, at its sole discretion, review and adjust Employee's compensation on an annual basis. No increase in compensation is guaranteed, and the Company reserves the right to reduce Employee's base salary with thirty (30) days written notice.
+
+8. TERMINATION AND SEVERANCE
+In the event of termination by the Company without cause, Employee shall receive two (2) weeks of severance pay for each year of completed service, up to a maximum of twelve (12) weeks. Termination for cause results in no severance entitlement. "Cause" shall be defined solely at the Company's reasonable discretion and shall include, but not be limited to, performance issues, misconduct, or any violation of Company policy.
+
+9. ARBITRATION AND DISPUTE RESOLUTION
+Any dispute arising out of or relating to this Agreement, including its formation, interpretation, breach, or termination, shall be resolved exclusively through binding arbitration administered by the American Arbitration Association under its Employment Arbitration Rules. The arbitration shall take place in San Francisco, California. Employee waives any right to a jury trial or to participate in any class or collective action against the Company.
+
+10. NON-DISPARAGEMENT
+Employee agrees that during employment and for a period of five (5) years following termination, Employee shall not make any negative, disparaging, or derogatory statements — whether written, oral, or electronic — about the Company, its officers, directors, employees, products, or services. The Company makes no reciprocal obligation to Employee under this clause.
+
+11. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of law principles.
+
+12. ENTIRE AGREEMENT
+This Agreement constitutes the entire agreement between the parties with respect to its subject matter and supersedes all prior agreements, representations, and understandings. This Agreement may be amended only by a written instrument signed by both parties.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+NovaTech Solutions Inc.                    Employee
+
+_______________________                    _______________________
+Authorized Signatory                       Signature
+
+Date: ___________________                  Date: ___________________

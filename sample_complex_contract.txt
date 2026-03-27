@@ -1,0 +1,66 @@
+SOFTWARE DEVELOPMENT SERVICES AGREEMENT
+
+This Software Development Services Agreement ("Agreement") is entered into as of March 1, 2025, between Apex Digital Ventures LLC, a California limited liability company ("Client"), and NexaForge Technologies Inc., a Delaware corporation ("Developer"). This Agreement governs the development of custom software and related services described herein.
+
+1. SCOPE OF WORK AND CHANGE ORDERS
+Developer agrees to design, develop, test, and deliver the software product described in Exhibit A ("Deliverables"). Any changes to the Scope of Work must be requested in writing and are subject to Developer's approval. Developer reserves the sole right to assess the feasibility and cost of any change request, and may decline any change that it deems technically impractical or commercially unviable. Approved changes will extend delivery timelines and increase fees at Developer's then-current billing rates, with no cap on such increases.
+
+2. PAYMENT TERMS AND LATE FEES
+Client shall pay a non-refundable retainer of $50,000 upon execution of this Agreement, with remaining fees due in accordance with the milestone schedule in Exhibit B. Invoices unpaid within 10 days accrue interest at 2% per month (24% per annum). Developer may suspend all work without notice if any payment is overdue by more than 5 business days. Client waives all rights to dispute any invoice not contested in writing within 3 business days of receipt.
+
+3. INTELLECTUAL PROPERTY OWNERSHIP
+Upon receipt of full and final payment, Developer assigns to Client all right, title, and interest in the Deliverables, including all source code, documentation, and associated intellectual property. Developer retains the right to retain and reuse any general tools, libraries, frameworks, methodologies, and know-how developed or used in the course of this engagement, including any components embedded in the Deliverables, provided they do not constitute Client's proprietary business logic.
+
+4. DEVELOPER BACKGROUND IP LICENSE
+Client acknowledges that the Deliverables may incorporate Developer's pre-existing proprietary tools, libraries, and frameworks ("Background IP"). Developer grants Client a non-exclusive, non-transferable, non-sublicensable license to use the Background IP solely as embedded within the Deliverables. Developer may revoke this license with 30 days written notice if Client breaches any payment obligation, effectively rendering the Deliverables inoperable.
+
+5. CONFIDENTIALITY
+Each party agrees to hold in confidence all non-public information received from the other party ("Confidential Information") and not to disclose it to any third party without prior written consent. This obligation does not apply to information that is publicly available, independently developed, or received from a third party without restriction. This confidentiality obligation survives termination of the Agreement for a period of five (5) years.
+
+6. WARRANTIES AND DISCLAIMER
+Developer warrants that the Deliverables will conform to the specifications in Exhibit A for a period of 90 days following delivery ("Warranty Period"). Developer's sole obligation under this warranty is to use commercially reasonable efforts to correct documented defects. DEVELOPER EXPRESSLY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. CLIENT ACCEPTS THE DELIVERABLES "AS-IS" AFTER THE WARRANTY PERIOD.
+
+7. LIMITATION OF LIABILITY
+IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR BUSINESS OPPORTUNITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. DEVELOPER'S TOTAL AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID BY CLIENT IN THE THREE (3) MONTHS PRECEDING THE CLAIM. THIS LIMITATION APPLIES REGARDLESS OF THE THEORY OF LIABILITY AND EVEN IF THE LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+8. INDEMNIFICATION BY CLIENT
+Client shall indemnify, defend, and hold harmless Developer and its officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to: (a) Client's use of the Deliverables; (b) any content or data provided by Client; (c) Client's breach of this Agreement; or (d) any claim that Client's business operations or the manner in which Client uses the Deliverables infringes any third-party right. This indemnification obligation is unlimited in scope and amount.
+
+9. TERMINATION FOR CONVENIENCE
+Either party may terminate this Agreement for any reason upon 30 days written notice. Upon termination by Client for convenience, Client shall pay Developer for all work completed to date at Developer's standard hourly rate of $350/hour, plus a termination fee equal to 25% of the remaining contract value, plus reimbursement of all committed third-party expenses. No refund of the initial retainer will be provided under any circumstances.
+
+10. TERMINATION FOR CAUSE
+Either party may terminate this Agreement immediately upon written notice if the other party materially breaches this Agreement and fails to cure such breach within 15 days of receiving written notice. Upon termination for cause by Developer, all amounts due under the Agreement become immediately payable, including the full termination fee set out in Section 9. Upon termination for cause by Client, Client's sole remedy is a refund of fees paid for undelivered milestones, with no additional damages.
+
+11. AUDIT RIGHTS
+Developer reserves the right to audit Client's use of the Deliverables and Background IP at any time, with 2 business days' notice, to verify compliance with the license terms. Client shall provide Developer with access to its systems, records, and personnel as reasonably requested. Costs of any audit revealing non-compliance shall be borne entirely by Client, regardless of the degree of non-compliance found.
+
+12. GOVERNING LAW AND DISPUTE RESOLUTION
+This Agreement is governed by the laws of the State of Delaware, without regard to conflict of law principles. All disputes shall be resolved exclusively through binding arbitration before a single arbitrator under the JAMS Comprehensive Arbitration Rules, in San Francisco, California. The parties waive any right to jury trial. Each party waives its right to bring any claim as a class or collective action. The prevailing party in any arbitration shall be entitled to recover its reasonable attorneys' fees and costs.
+
+13. FORCE MAJEURE
+Neither party shall be liable for delays or failures in performance resulting from causes beyond their reasonable control, including acts of God, natural disasters, war, government actions, labour disputes, or internet outages. Developer may, at its discretion, extend any delivery milestone by up to 90 days without penalty in the event of a force majeure event, whether or not the event actually impacts the work.
+
+14. INDEPENDENT CONTRACTOR
+Developer is an independent contractor and not an employee, agent, or partner of Client. Developer has sole discretion over the means and methods of performing the Services. Developer may subcontract any portion of the Services to third parties without Client's prior approval, provided Developer remains responsible for the quality of the Deliverables. Client is not responsible for Developer's taxes, benefits, or employment obligations.
+
+15. NON-SOLICITATION
+During the term of this Agreement and for a period of two (2) years following its termination, Client shall not, directly or indirectly, solicit, recruit, or hire any employee, contractor, or subcontractor of Developer who was involved in the provision of Services under this Agreement. In the event of a breach of this provision, Client shall pay Developer a fee equal to 12 months of the solicited individual's annual compensation as liquidated damages, which the parties agree is a reasonable estimate of Developer's loss.
+
+16. ASSIGNMENT
+Developer may assign this Agreement, or any of its rights and obligations hereunder, to any affiliate or successor entity without Client's consent. Client may not assign this Agreement without Developer's prior written consent, which may be withheld in Developer's sole discretion. Any unauthorized assignment by Client is void and constitutes a material breach of this Agreement.
+
+17. ENTIRE AGREEMENT AND AMENDMENTS
+This Agreement, together with all Exhibits, constitutes the entire agreement between the parties with respect to its subject matter and supersedes all prior negotiations, representations, and understandings. This Agreement may not be amended except by a written instrument signed by both parties. However, Developer reserves the right to update its standard billing rates, tooling fees, and third-party service costs with 14 days written notice to Client, and continued use of Developer's services shall constitute acceptance of such changes.
+
+18. SEVERABILITY AND WAIVER
+If any provision of this Agreement is found to be unenforceable, that provision shall be modified to the minimum extent necessary to make it enforceable, and the remaining provisions shall continue in full force and effect. The failure of either party to enforce any right under this Agreement shall not constitute a waiver of that right. Developer's delay in exercising any remedy shall not be construed as a waiver of any breach.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+APEX DIGITAL VENTURES LLC                NEXAFORGE TECHNOLOGIES INC.
+
+_______________________                  _______________________
+Authorized Signatory                     Authorized Signatory
+
+Date: ___________________                Date: ___________________
