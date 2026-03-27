@@ -9,6 +9,7 @@ No data leaves your machine. No API keys. No usage fees.
 ---
 
 ## Screenshots
+<img width="1807" height="736" alt="PlainLaw" src="https://github.com/user-attachments/assets/728eb9ed-7dc4-4653-b9cd-0e5aaf7cd39c" />
 
 > Contract view — colour-coded clause cards sorted high → medium → low risk
 
