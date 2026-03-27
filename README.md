@@ -123,8 +123,8 @@ PDF / TXT upload
 ### Install
 
 ```bash
-git clone https://github.com/Shashank-K-V/PlainLaw.git
-cd PlainLaw
+git clone https://github.com/Shashank-K-V/viveka.git
+cd viveka
 pip install -r requirements.txt
 ```
 
