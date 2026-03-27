@@ -9,7 +9,7 @@ from exporter import build_pdf_report
 # ── Page config ────────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="PlainLaw",
+    page_title="Viveka",
     page_icon="⚖️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -173,8 +173,8 @@ def render_clause(ac: AnalyzedClause) -> None:
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 
 with st.sidebar:
-    st.markdown("## ⚖️ PlainLaw")
-    st.markdown("Plain English for legal documents.")
+    st.markdown("## ⚖️ Viveka")
+    st.markdown("Decipher your legal documents.")
     st.divider()
 
     lmstudio_url = st.text_input(
@@ -191,16 +191,16 @@ with st.sidebar:
 
     st.markdown("""
 <div class="disclaimer">
-⚠️ <strong>Not legal advice.</strong> PlainLaw helps you understand contracts but does not replace a qualified lawyer.
+⚠️ <strong>Not legal advice.</strong> Viveka helps you understand contracts but does not replace a qualified lawyer.
 </div>
 """, unsafe_allow_html=True)
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
-st.markdown('<p class="plain-title">PlainLaw</p>', unsafe_allow_html=True)
+st.markdown('<p class="plain-title">Viveka</p>', unsafe_allow_html=True)
 st.markdown(
-    '<p class="plain-sub">Upload any contract — get plain English explanations and risk highlights instantly.</p>',
+    '<p class="plain-sub">Upload any contract — decipher every clause instantly.</p>',
     unsafe_allow_html=True,
 )
 
@@ -316,7 +316,7 @@ with tab_summary:
                 st.download_button(
                     label="Download PDF Report",
                     data=pdf_bytes,
-                    file_name=f"plainlaw_{filename.rsplit('.', 1)[0]}.pdf",
+                    file_name=f"viveka_{filename.rsplit('.', 1)[0]}.pdf",
                     mime="application/pdf",
                     use_container_width=True,
                 )

@@ -1,15 +1,18 @@
-# ⚖️  AI Contract Simplifier
+# ⚖️ Viveka
 
-**Plain English for legal documents — powered by a local LLM, fully private.**
+> *Viveka* (विवेक) — Sanskrit for **discernment** · the ability to see clearly and judge wisely.
 
- AI Contract Simplifier is a Streamlit application that takes any contract (PDF or text), splits it into individual clauses, analyzes each one for risk using a locally running language model, and presents a colour-coded interactive report — with plain English explanations, risk reasoning, and lawyer questions for every clause.
+**Decipher your legal documents — powered by a local LLM, fully private.**
+
+Viveka is a Streamlit application that takes any contract (PDF or text), splits it into individual clauses, analyzes each one for risk using a locally running language model, and presents a colour-coded interactive report — with plain English explanations, risk reasoning, and lawyer questions for every clause.
 
 No data leaves your machine. No API keys. No usage fees.
 
 ---
 
 ## Screenshots
-<img width="1807" height="736" alt=" AI Contract Simplifier" src="https://github.com/user-attachments/assets/728eb9ed-7dc4-4653-b9cd-0e5aaf7cd39c" />
+
+<img width="1807" height="736" alt="Viveka — AI Contract Simplifier" src="https://github.com/user-attachments/assets/728eb9ed-7dc4-4653-b9cd-0e5aaf7cd39c" />
 
 > Contract view — colour-coded clause cards sorted high → medium → low risk
 
@@ -36,7 +39,7 @@ No data leaves your machine. No API keys. No usage fees.
 ## Architecture
 
 ```
- AI Contract Simplifier/
+viveka/
 ├── app.py          # Streamlit UI — upload, progress, contract + summary tabs
 ├── analyzer.py     # LangChain chains → LM Studio → JSON extraction → Pydantic
 ├── parser.py       # PyMuPDF text extraction + clause splitter + title extractor
@@ -120,8 +123,8 @@ PDF / TXT upload
 ### Install
 
 ```bash
-git clone https://github.com/yourusername/ AI Contract Simplifier.git
-cd  AI Contract Simplifier
+git clone https://github.com/Shashank-K-V/PlainLaw.git
+cd PlainLaw
 pip install -r requirements.txt
 ```
 
@@ -169,7 +172,7 @@ Two sample contracts are included for testing:
 
 ## Limitations
 
-- **Not legal advice** —  AI Contract Simplifier is an educational tool. Always consult a qualified lawyer before signing any contract.
+- **Not legal advice** — Viveka is an educational tool. Always consult a qualified lawyer before signing any contract.
 - **Risk scoring accuracy** — a local 8B model is good but not infallible. Treat flagged clauses as starting points for review, not definitive legal opinions.
 - **Scanned PDFs** — PDFs that are images only (no embedded text) will extract empty. Use a scanned PDF with OCR pre-applied, or paste the text directly.
 - **Very long contracts** — capped at 40 clauses by default to keep processing time reasonable. Increase the slider for longer documents.
@@ -183,28 +186,27 @@ Two sample contracts are included for testing:
 - [ ] Clause comparison mode — diff two versions of the same contract
 - [ ] Contract type–specific risk rubrics (lease vs employment vs SaaS)
 - [ ] Async parallel clause processing for faster analysis
-- [ ] Claude API backend option for higher-accuracy legal reasoning
+- [ ] Cloud LLM API backend option for higher-accuracy legal reasoning
 - [ ] Highlight mode — render the full contract as a single document with inline colour highlights
 
 ---
 
 ## Upgrade path
 
-Swap the local LLM for the Anthropic API in one change in `analyzer.py`:
+Swap the local LLM for any OpenAI-compatible cloud API in one change in `analyzer.py`:
 
 ```python
-from langchain_anthropic import ChatAnthropic
+from langchain_openai import ChatOpenAI
 
 def build_llm(**kwargs):
-    return ChatAnthropic(model="claude-haiku-4-5-20251001", temperature=0)
+    return ChatOpenAI(model="gpt-4o-mini", temperature=0)
 ```
 
 ```bash
-pip install langchain-anthropic
-export ANTHROPIC_API_KEY=sk-ant-...
+export OPENAI_API_KEY=sk-...
 ```
 
-Claude is significantly better at legal reasoning and consistency than a 7B local model. Haiku costs approximately $0.001 per contract.
+Cloud models offer higher accuracy and consistency than a local 7B model for complex legal reasoning. Since Viveka already uses the OpenAI-compatible interface, no other code changes are needed.
 
 ---
 
