@@ -1,15 +1,15 @@
-# ⚖️ PlainLaw
+# ⚖️  AI Contract Simplifier
 
 **Plain English for legal documents — powered by a local LLM, fully private.**
 
-PlainLaw is a Streamlit application that takes any contract (PDF or text), splits it into individual clauses, analyzes each one for risk using a locally running language model, and presents a colour-coded interactive report — with plain English explanations, risk reasoning, and lawyer questions for every clause.
+ AI Contract Simplifier is a Streamlit application that takes any contract (PDF or text), splits it into individual clauses, analyzes each one for risk using a locally running language model, and presents a colour-coded interactive report — with plain English explanations, risk reasoning, and lawyer questions for every clause.
 
 No data leaves your machine. No API keys. No usage fees.
 
 ---
 
 ## Screenshots
-<img width="1807" height="736" alt="PlainLaw" src="https://github.com/user-attachments/assets/728eb9ed-7dc4-4653-b9cd-0e5aaf7cd39c" />
+<img width="1807" height="736" alt=" AI Contract Simplifier" src="https://github.com/user-attachments/assets/728eb9ed-7dc4-4653-b9cd-0e5aaf7cd39c" />
 
 > Contract view — colour-coded clause cards sorted high → medium → low risk
 
@@ -36,7 +36,7 @@ No data leaves your machine. No API keys. No usage fees.
 ## Architecture
 
 ```
-plainlaw/
+ AI Contract Simplifier/
 ├── app.py          # Streamlit UI — upload, progress, contract + summary tabs
 ├── analyzer.py     # LangChain chains → LM Studio → JSON extraction → Pydantic
 ├── parser.py       # PyMuPDF text extraction + clause splitter + title extractor
@@ -120,8 +120,8 @@ PDF / TXT upload
 ### Install
 
 ```bash
-git clone https://github.com/yourusername/plainlaw.git
-cd plainlaw
+git clone https://github.com/yourusername/ AI Contract Simplifier.git
+cd  AI Contract Simplifier
 pip install -r requirements.txt
 ```
 
@@ -169,7 +169,7 @@ Two sample contracts are included for testing:
 
 ## Limitations
 
-- **Not legal advice** — PlainLaw is an educational tool. Always consult a qualified lawyer before signing any contract.
+- **Not legal advice** —  AI Contract Simplifier is an educational tool. Always consult a qualified lawyer before signing any contract.
 - **Risk scoring accuracy** — a local 8B model is good but not infallible. Treat flagged clauses as starting points for review, not definitive legal opinions.
 - **Scanned PDFs** — PDFs that are images only (no embedded text) will extract empty. Use a scanned PDF with OCR pre-applied, or paste the text directly.
 - **Very long contracts** — capped at 40 clauses by default to keep processing time reasonable. Increase the slider for longer documents.
